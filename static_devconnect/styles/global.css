@@ -1,0 +1,58 @@
+:root{
+  --cor-preto: #0000;
+  --cor-azul: #4965DC;
+  --cor-azul-claro: #7CB2FF;
+  --cor-branco: #FFFFFF;
+  --cor-cinza-claro: #F1F5F5;
+
+  --borda: 1px solid var (--cor-preto);
+  --borda-arrendondada: 3px;
+
+  --tamanho-fonte-lg: 20px;
+  --tamanho-fonte-md: 16px;
+  --tamanho-fonte-sm: 14px;
+}
+@font-face{
+    font-family: Libertinus_serif,
+    url(../fonts/Libertinus_Serif/OFL.txt),
+    url(../fonts/Libertinus_Serif/LibertinusSerif-Bold.ttf),
+    url(../fonts/Libertinus_Serif/LibertinusSerif-BoldItalic.ttf),
+    url(../fonts/Libertinus_Serif/LibertinusSerif-Italic.ttf),
+    url(../fonts/Libertinus_Serif/LibertinusSerif-SemiBold.ttf),
+    url(../fonts/Libertinus_Serif/LibertinusSerif-SemiBoldItalic.ttf);
+    src: url(../fonts/Libertinus_Serif/LibertinusSerif-Regular.ttf);
+
+    
+}
+@font-face{
+    font-family: Abril_fatface;
+    src: url(../fonts/Abril_Fatface/AbrilFatface-Regular.ttf),
+    url(../fonts/Abril_Fatface/OFL.txt);
+    }
+
+    /*SELETOR GLOBAL*/
+*{
+font-family: "Libertinus_serif", serif;
+padding: 0;
+margin: 0;
+box-sizing: border-box; /* o valor toal do elemnto conta tanto com espaço externo quanto internos /externo e as borda*/
+
+}
+
+body{
+ background-color: var(--cor-cinza-claro);
+}
+
+h1{
+  position: absolute; /*altera a posição do elemenot*/
+  z-index: -1; /**/
+  opacity: 0;
+}
+/*formulario*/
+input{
+width: 100%;
+height: 35px;
+border: var(--borda);
+background-color: #F1F5F5 
+
+}
